@@ -1,0 +1,113 @@
+/* Add this CSS code to your existing stylesheet or create a new one */
+
+/* Set a larger font size for the body */
+body {
+    font-size: 18px;
+    background-color: #3f3535;
+}
+
+/* Change the background color of the navigation bar */
+.navbar {
+    background-color: #3498db;
+}
+
+/* Change the color of the navigation links */
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+/* Change the color of the navigation links on hover */
+.navbar-nav .nav-link:hover {
+    color: #f39c12;
+}
+
+/* Change the color of the active navigation link */
+.navbar-nav .nav-item.active .nav-link {
+    color: #f39c12;
+}
+
+/* Change the background color of the container */
+.container {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+/* Set a larger font size for headings */
+h1 {
+    font-size: 36px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Set the text color for labels and form controls */
+label, .form-control {
+    color: #34495e;
+}
+
+/* Style the submit button */
+.btn-primary {
+    background-color: #e74c3c;
+    border-color: #c0392b;
+}
+
+/* Change the background color of the submit button on hover */
+.btn-primary:hover {
+    background-color: #c0392b;
+    border-color: #a93226;
+}
+/* Existing styles ... */
+
+/* Styling for the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+/* Styling for the navigation bar */
+nav {
+    background-color: #444;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #333;
+}
+
+/* Styling for the Portfolio section */
+#portfolio {
+    background-color: #f5f5f5;
+    padding: 120px 0 20px; /* Add more padding to create space */
+}
+
+.portfolio-item {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
